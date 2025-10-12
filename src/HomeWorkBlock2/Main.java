@@ -8,8 +8,6 @@ public class Main {
         calculateTask4();
         calculateTask5();
         calculateTaskStar();
-
-
     }
 
     public static void calculateTask1() {
