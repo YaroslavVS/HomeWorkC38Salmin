@@ -1,10 +1,9 @@
-package HomeWork1;
+package HomeWorkBlock1;
 
 public class Main {
     public static void main(String[] args) {
         calculateTask1();
         calculateTask2();
-
     }
 
     public static void calculateTask1() {
@@ -16,9 +15,4 @@ public class Main {
         age = 36;
         System.out.println("Иван Иванов " + age);
     }
-
-
-
-
-
 }
