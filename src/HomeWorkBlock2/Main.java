@@ -6,6 +6,9 @@ public class Main {
         calculateTask2();
         calculateTask3();
         calculateTask4();
+        calculateTask5();
+        calculateTaskStar();
+
 
     }
 
@@ -32,10 +35,11 @@ public class Main {
         int sum1 = One+Two+Three;
         System.out.println("Результат вычисления: " + sum1);
     }
+
     public static void calculateTask4() {
         System.out.println("Здравствуйте, данная программа округлит ваше число");
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите вещественное число: ");
+        System.out.print("Введите вещественное число: ");
         double a = input.nextDouble();
         double b = a - (int)a;
         int c;
@@ -48,6 +52,24 @@ public class Main {
         System.out.println("Исходное число: " + a);
         System.out.println("Округление: " + c);
         input.close();
+    }
+
+    public static void calculateTask5() {
+        int q = 21;
+        int w = 8;
+        int c = q / w;
+        int z = q % w;
+        System.out.println(q + " / " + w + " = " + c + " и " + z + " в остатке ");
+    }
+
+    public static void calculateTaskStar() {
+        int a = 1;
+        int b = 2;
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println(a);
+        System.out.println(b);
     }
 }
 
