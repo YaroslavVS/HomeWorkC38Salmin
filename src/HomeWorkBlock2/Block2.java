@@ -1,6 +1,6 @@
 package HomeWorkBlock2;
 import java.util.Scanner;
-public class Main {
+public class Block2 {
     public static void main(String[] args) {
         //Задача 1:
         //Напишите приложение, которое будет рассчитывать и выведите значение по формуле:

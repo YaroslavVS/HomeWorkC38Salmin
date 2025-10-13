@@ -1,6 +1,6 @@
 package HomeWorkBlock1;
 
-public class Main {
+public class Block1 {
     public static void main(String[] args) {
         // Задача 1:
         //Создать программу, которая будет выводиться в консоль вашего имени и семьи
