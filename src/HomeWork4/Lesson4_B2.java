@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Lesson4_B2 {
     public static void main(String[] args) {
         System.out.println("-".repeat(50));
-        System.out.println("Урок 4, Блок 2, Задача 1");
+        System.out.println("Урок 4, Блок 2");
         task1();
         System.out.println("-".repeat(50));
         taskStar();
