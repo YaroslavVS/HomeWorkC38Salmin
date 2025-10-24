@@ -16,8 +16,12 @@ public class Lesson3_B2 {
         task4();
         System.out.println("________________________");
         System.out.println("Урок3, Блок2, Задача *:");
-        taskStar();
+//        taskStar();
+//        System.out.println("________________________");
+        taskStar1();
         System.out.println("________________________");
+//        taskStar2();
+//        System.out.println("________________________");
     }
 
 //        Задача 1:
@@ -81,15 +85,43 @@ public class Lesson3_B2 {
 //    числа воспользуйтесь классом Scanner. Сделать проверку, чтобы пользователь не мог
 //    ввести некорректные данные.
 
-    public static void taskStar() {
+//    public static void taskStar() {
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Введите число: ");
+//        int number = input.nextInt();
+//        if (number > 0) {
+//            int sum = number * (number + 1) / 2;
+//            System.out.println("Сумма чисел от 1 до " + number + " = " + sum);
+//        } else {
+//            System.out.println("Введены некорректные данные");
+//        }
+//    }
+    public static void taskStar1() {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите число: ");
         int number = input.nextInt();
         if (number > 0) {
-            int sum = number * (number + 1) / 2;
+            int sum = 0;
+            for (int i = 1; i <= number; i++){
+                sum = sum + i;
+            }
             System.out.println("Сумма чисел от 1 до " + number + " = " + sum);
         } else {
             System.out.println("Введены некорректные данные");
         }
     }
+//    public static void taskStar2() {
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Введите число: ");
+//        int number = input.nextInt();
+//        if (number > 0) {
+//            int p = 1;
+//            for (int i = 1; i <= number; i++){
+//                p = p * i;
+//            }
+//            System.out.println("Произведение чисел от 1 до " + number + " = " + p);
+//        } else {
+//            System.out.println("Введены некорректные данные");
+//        }
+//    }
 }
